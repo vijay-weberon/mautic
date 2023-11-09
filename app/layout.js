@@ -7,7 +7,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        {" "}
+        {/* {" "}
         <h4>
           <a href="/">Home</a>
         </h4>
@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
         </h4>
         <h4>
           <a href="/lp-bestbuys">lp-bestbuys</a>
-        </h4>
+        </h4> */}
         {children}
       </body>
     </html>

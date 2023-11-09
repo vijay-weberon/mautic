@@ -1,0 +1,95 @@
+#usp div {
+  font-size: 7vw !important;
+}
+
+#banner-text{
+    color: #ffff00;
+    filter: drop-shadow(0 0 15px rgba(0,0,0,1.5));
+    width: 70%;
+    margin-left:15%;
+
+}
+@media only screen and (min-width: 576px) {
+  #usp div {
+    font-size: 6vw !important;
+  }
+}
+
+@-webkit-keyframes banner {
+  from {
+    -webkit-transform: scale(1.5);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes banner {
+  from {
+    transform: scale(1.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@-webkit-keyframes banner_text {
+  from {
+    -webkit-transform: scale(0.5);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes banner_text {
+  from {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+#banner {
+  height: 270px;
+  object-fit: cover;
+  object-position: center;
+  -webkit-animation: banner 5s infinite;
+  animation: banner 5s infinite;
+}
+
+header {
+  height: 270px;
+  overflow: hidden;
+}
+
+#usp {
+  -webkit-animation: banner_text 5s infinite;
+  animation: banner_text 5s infinite;
+}
+
+#usp div span {
+  color: white;
+  font-weight: bold;
+}
+
+#pp,
+#pp img {
+  width: 175px;
+  height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  #pp,
+  #pp img {
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  #pp,
+  #pp img {
+    width: 125px;
+  }
+}

@@ -3,10 +3,18 @@ import React from 'react'
 
 const layout = ({children}) => {
   return (
-    <div>layout
-       
+    
+      <html lang='en'>
+        <head>
+
+        </head>
+
+      <body>
+        
         {children}
-    </div>
+      </body>
+       
+    </html>
   )
 }
 
